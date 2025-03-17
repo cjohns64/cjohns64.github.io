@@ -394,6 +394,7 @@ The results confirm that exoplanet mass and radius are strongly correlated, with
 ###### 2.3.3.2. Future Data Collection
 
 To enhance the robustness of this analysis, additional data could include:
+
 -   More detailed composition analysis of exoplanets.
 -   Integration of stellar properties (e.g., metallicity, age, and temperature) to refine models.
 -   Expanding the dataset with newly discovered exoplanets from recent missions.\
