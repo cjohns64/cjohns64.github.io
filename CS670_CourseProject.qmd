@@ -298,7 +298,7 @@ R² : 0.3513
 
 **Description:** This figure compares exoplanet clusters with known Solar System planets.
 
-**Interpretation:** The clustering method groups planets similarly to how terrestrial planets, ice giants, and gas giants are classified.
+**Interpretation:** The clustering method groups planets similarly to how terrestrial planets (red), ice giants (blue), and gas giants (green) are classified.
 
 ------------------------------------------------------------------------
 
@@ -575,7 +575,7 @@ no.ref.data %>%
 
 ![](./figures/Q7-Figure-01.png){style="float:left;" fig-alt="Distribution of Mass vs orbital radius for different exoplanet types"}\
 
-#### 2.8. Systems With More Than One Exoplanet
+#### 2.8. Are there differences in exoplanet type distribution in systems with more than one exoplanet?
 
 Systems with multiple exoplanets were pervasive in the dataset but were not visible in the 3D plot (but shown as larger dots) since each planet in a multi-planet system has the exact same coordinates.\
 
@@ -614,7 +614,45 @@ The classification of exoplanets is crucial in identifying potentially habitable
 
 ------------------------------------------------------------------------
 
-### 4. References
+### 4. Project Summary
+
+*This project addressed 8 questions:*
+
+#### 1 - What are the different types of exoplanets present in the dataset?
+
+There were 5 types of exoplanets categorized in the dataset: Gas Giant, Neptune-like, Super Earth, Terrestrial, and Unknown. These categories were further divided based off of mass and radius into: Terrestrial, Super-Earth, Gas Giant, Neptune-like, Super-Neptune, and Inflatable Planets. Of these Super-Earths and Gas Giants were found to be the most common.
+
+#### 2 - Is there a relationship between an exoplanet’s properties and its host star?
+
+We explored several models to relate exoplanets to their host star (stellar magnitude). While many of the models had highly significant coefficients none of them produced R2 values greater then 0.5.
+
+#### 3 - How do exoplanet mass distributions vary, and what insights can we gain about planetary formation, detection biases, and their comparison with the Solar System?
+
+The models explored in this section produced much better results then the last one. The results confirmed that exoplanet mass and radius are strongly correlated, with the log-transformed regression model capturing nearly 88.42% of the variance. The clustering analysis identified three main groups of exoplanets, indicating natural groupings based on size and mass. The Tukey HSD test also highlighted how different detection methods preferentially identify exoplanets of varying masses.
+
+#### 4 - How are detected exoplanets distributed in the galaxy?
+
+Known Exoplanets were found to be distributed in 3 major patterns:
+
+1. A spherical distribution centered on Earth with decreasing density as distance increases. The decrease in density is expected because of dimming due to the inverse square law. The spherical distribution is interesting as it, combined with point 2, implies that almost every star has at least one planet.
+2. A dense cone pointed in the direction of Cygnus constellation due to the Kepler Space Telescope. The density of exoplanets discovered by Kepler is impressive considering its detection method requires both the exoplanet’s orbital plane to be almost perfectly lined up with Earth and the exoplanet to pass in front of its star during the time Kepler was active.
+3. A sparse line of observations spanning to the center of the galaxy due mostly to gravitational microlensing observations. This is likely because there are a lot of stars rapidly orbiting the black hole at the center of the galaxy and these stars could be used as the back-end of the gravitational microlensing method without requiring the exoplanet (to be detected) to move as much as with the transit approach.
+
+#### 5 - What kinds of observations didn’t get position data resolved?
+
+The data with unresolved position was mostly gravitational microlesing observations. Since this technique relies on a transient change in brightness of a reference star due to an object passing in front of it, it stands to reason that obtaining the position of the object might be harder. Or perhaps a different naming convention was used that didn’t get added to the Sesame Name Resolver database.
+
+#### 6 - How much has the Kepler Space Telescope impacted exoplanet data? 7 - How does Kepler’s Data differ from other sources?
+
+The Kepler Space Telescope had a massive impact on the exoplanet data, being responsible for about half of all known exoplanets and most of the diversity in exoplanet type. Most of the data that is not from Kepler was from radial velocity, which has a strong bias to massive objects with short orbital periods. By using the transit method, the Kepler Space Telescope was not biased in the same way, but it likely still has some bias to short orbital periods, as these will be closer to their star and pass in front of them more often.
+
+#### 8 - Are there differences in exoplanet type distribution in systems with more than one exoplanet?
+
+Interestingly no notable difference was found with multi-planet systems compared to single planet systems. This may be because if a system has one planet it is likely to have others.
+
+------------------------------------------------------------------------
+
+### 5. References
 
 1.  Gebru et al. (2018). "Datasheets for Datasets." \[arXiv:1803.09010\](<https://arxiv.org/abs/1803.09010>)\
 2.  NASA Exoplanet Archive: \<<https://exoplanetarchive.ipac.caltech.edu>\>\
