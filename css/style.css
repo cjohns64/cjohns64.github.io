@@ -1,0 +1,40 @@
+/*color & size*/
+body {
+  background-color: #223;
+}
+h2,h3,h4,h5 {
+  color: #eef;
+}
+h1 {
+  color:#eff;
+  font-size: 30pt;
+}
+a {
+  color: #aff;
+}
+p, ul{
+  color: #abe;
+}
+
+/*layout*/
+div {
+  padding:20px;
+}
+div.links {
+  float:left;
+  background-color: #334;
+  width:30%;
+  flex: fit-content;
+}
+div.projects {
+  float:right;
+  width:65%;
+}
+div.bio {
+  background-color: #334;
+}
+div.skills {
+  float:left;
+  width: 30%;
+  background-color: #112;
+}
