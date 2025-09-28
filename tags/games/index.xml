@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Games on Cory Johns - Projects</title>
+    <link>https://cjohns64.github.io/tags/games/</link>
+    <description>Recent content in Games on Cory Johns - Projects</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Sep 2025 16:56:31 -0700</lastBuildDate>
+    <atom:link href="https://cjohns64.github.io/tags/games/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>One-Armed Bandit!</title>
+      <link>https://cjohns64.github.io/games/one-armed-bandit/</link>
+      <pubDate>Tue, 23 Sep 2025 16:56:31 -0700</pubDate>
+      <guid>https://cjohns64.github.io/games/one-armed-bandit/</guid>
+      <description>&lt;h2 id=&#34;one-armed-bandit-project-summery&#34;&gt;One-Armed Bandit! Project Summery&lt;/h2&gt;&#xA;&lt;p&gt;For this project, our three-member team decided to make the game in 2D. In the prior two game jams we made 3D games and we struggled to get a working prototype done before the deadline. This turned out to be a great decision since a 2D game can be made about 100 times faster then a 3D game. We also had a great starting idea that ended up being relatively easy to implement. I made most of the art for the game (except the houses, fences, and food sprites). The art was made by modeling a simple 3D mesh in Blender and rendering it into a sprite sheet using the Sequenced Bake plugin. This turned out to be another great decision since it allowed for the detail of a 3D game combined with the ease of developing a 2D game.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PANOPTICON</title>
+      <link>https://cjohns64.github.io/games/panopticon/</link>
+      <pubDate>Wed, 30 Jul 2025 16:56:14 -0700</pubDate>
+      <guid>https://cjohns64.github.io/games/panopticon/</guid>
+      <description>&lt;h2 id=&#34;panopticon-project-summery&#34;&gt;PANOPTICON Project Summery&lt;/h2&gt;&#xA;&lt;p&gt;This game is structurally quite complex and was effectively a masterclass in Godot&amp;rsquo;s raycast system. Since the pillars are all contained in the same mesh and there are over 96 different ones on each level, the traditional methods of referencing the objects couldn&amp;rsquo;t work for this project. We ended up developing a system where the normal direction of the top surface of each pillar section would be used as a key to uniquely identify that pillar. This was combined with aggressive use of Godot&amp;rsquo;s collision layers which allowed us to use raycasts from the origin to select the pillars.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mall Crawlers</title>
+      <link>https://cjohns64.github.io/games/mall-crawlers/</link>
+      <pubDate>Wed, 09 Jul 2025 16:56:00 -0700</pubDate>
+      <guid>https://cjohns64.github.io/games/mall-crawlers/</guid>
+      <description>&lt;h2 id=&#34;mall-crawlers-project-summery&#34;&gt;Mall Crawlers Project Summery&lt;/h2&gt;&#xA;&lt;p&gt;This game was made for the Godot Wild Jam #83. This was the first game jam I participated in. Our team of three people severely underestimated the time required to implement the vision we had for this project, so it ended up as more of a tech demo then a game. I spent most of my time working on making the assets, the level design, and the animation blend trees. I also did the light baking, this had a huge effect on the atmosphere of the game, but is also responsible for most of it&amp;rsquo;s file size.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hex Chess</title>
+      <link>https://cjohns64.github.io/games/hex-chess/</link>
+      <pubDate>Tue, 29 Apr 2025 16:55:48 -0700</pubDate>
+      <guid>https://cjohns64.github.io/games/hex-chess/</guid>
+      <description>&lt;h2 id=&#34;hex-chess-project-summary&#34;&gt;Hex Chess Project Summary&lt;/h2&gt;&#xA;&lt;p&gt;I made this game during the 2025 Spring term for CS 507 final project. I wanted to make a chess game, since I had previously attempted to make one in Java in 2015 when I just started to learn programming. I quickly learned the realities of a large scale programming project with this attempt and the project was eventually abandoned. I wanted to re-visit the idea utilizing the lessons I had learned as well as adding a twist, the board would be hexagonal.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Interstellar Delivery Service</title>
+      <link>https://cjohns64.github.io/games/interstellar-delivery-service/</link>
+      <pubDate>Sun, 20 Apr 2025 16:55:38 -0700</pubDate>
+      <guid>https://cjohns64.github.io/games/interstellar-delivery-service/</guid>
+      <description>&lt;h2 id=&#34;interstellar-delivery-service-project-summary&#34;&gt;Interstellar Delivery Service Project Summary&lt;/h2&gt;&#xA;&lt;p&gt;This game was made for the final project for CS 510 Game Programming. It was made in the Unity Game Engine in C#.&lt;/p&gt;&#xA;&lt;p&gt;The game was develop in four stages throughout the term: prof-of-concept, alpha, beta, and final.&lt;/p&gt;&#xA;&lt;p&gt;During the proof-of-concept stage I worked on the ship asset, the inventory system, and the inventory/trading menus.&lt;/p&gt;&#xA;&lt;p&gt;In the Alpha stage I almost completely refactored the inventory system, added an upgrade system, and added assets for the planets, asteroids, and stations in zone 1.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

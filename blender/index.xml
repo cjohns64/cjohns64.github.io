@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blenders on Cory Johns - Projects</title>
+    <link>https://cjohns64.github.io/blender/</link>
+    <description>Recent content in Blenders on Cory Johns - Projects</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Aug 2025 08:51:27 -0700</lastBuildDate>
+    <atom:link href="https://cjohns64.github.io/blender/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lowpoly Skeleton</title>
+      <link>https://cjohns64.github.io/blender/lowpoly-skeleton/</link>
+      <pubDate>Sun, 03 Aug 2025 08:51:27 -0700</pubDate>
+      <guid>https://cjohns64.github.io/blender/lowpoly-skeleton/</guid>
+      <description>&lt;h2 id=&#34;lowpoly-skeleton-project-summary&#34;&gt;Lowpoly Skeleton Project Summary&lt;/h2&gt;&#xA;&lt;p&gt;For this project I sculpted a full human skeleton with the goal of getting &amp;ldquo;close enough&amp;rdquo; to the reference that it looks accurate. I definitely got some of the anatomy wrong, but the final sculpt looks convincing enough. The sculpt ended up with about 6 million triangles which made it unusable for most applications. I then went about retopologizing the skeleton and optimizing the mesh and I got the triangle count down to 14,356.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tree Asset</title>
+      <link>https://cjohns64.github.io/blender/tree-asset/</link>
+      <pubDate>Thu, 05 May 2022 08:53:02 -0700</pubDate>
+      <guid>https://cjohns64.github.io/blender/tree-asset/</guid>
+      <description>&lt;h2 id=&#34;tree-asset-project-summary&#34;&gt;Tree Asset Project Summary&lt;/h2&gt;&#xA;&lt;p&gt;For this project I wanted to make a convincing CG tree that I could use in other projects. I had a lot of problems managing the complexity of the tree, since it is too computationally expensive and too time consuming to model each leaf. I ended up modeling a single branch, and then instancing that branch several times to form the tree. The instances were placed by hand.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wheels of the Primal Gates</title>
+      <link>https://cjohns64.github.io/blender/wheels-of-the-primal-gates/</link>
+      <pubDate>Fri, 12 Mar 2021 22:11:56 -0700</pubDate>
+      <guid>https://cjohns64.github.io/blender/wheels-of-the-primal-gates/</guid>
+      <description>&lt;h2 id=&#34;wheels-of-the-primal-gates-project-summary&#34;&gt;Wheels of the Primal Gates Project Summary&lt;/h2&gt;&#xA;&lt;p&gt;In this project, I made my interpretation of a location in one of my favorite games. In the game, Conquest of Elysium 4 by Illwinter Game Design, it is described that the primal gates (the portals that connect the elemental planes) are guarded by the wheels of Storm and Stone and the wheels of Frost and Flames. I had the most difficulty getting the wheel of Storm and Stone to stand out against the background, as well as how to depict elemental frost in a way that was instantly recognizable. One of the biggest successes of this project was that I figured out how to depict fire and clouds without resorting to simulations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bone Dragon</title>
+      <link>https://cjohns64.github.io/blender/bone-dragon/</link>
+      <pubDate>Mon, 01 Feb 2021 08:52:03 -0700</pubDate>
+      <guid>https://cjohns64.github.io/blender/bone-dragon/</guid>
+      <description>&lt;h2 id=&#34;bone-dragon-project-summary&#34;&gt;Bone Dragon Project Summary&lt;/h2&gt;&#xA;&lt;p&gt;This was my second attempt to make a dragon. The reasoning I had was if I sculpted it from the ground up (bones, then muscles, then scales) it would achieve a more realistic result. I didn&amp;rsquo;t anticipate that the final form would not match what I was going for. The project was a big success anyway, since I learned a lot about anatomy, sculpting, and retopology.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Solaren Video Remake</title>
+      <link>https://cjohns64.github.io/blender/solaren-video-remake/</link>
+      <pubDate>Tue, 15 Dec 2020 08:52:53 -0700</pubDate>
+      <guid>https://cjohns64.github.io/blender/solaren-video-remake/</guid>
+      <description>&lt;h2 id=&#34;solaren-video-remake-project-summery&#34;&gt;Solaren Video Remake Project Summery&lt;/h2&gt;&#xA;&lt;p&gt;For this project I made a completely new set of 3D animations for the Solaren corporation. The animation was based off of an earlier animation for the structure and most of the narration script. The new animation, however, does not contain any assets from the original animation. The animation contains 7 distinct scenes, with 3 distinct environments. All of the space scenes were done with Blender&amp;rsquo;s real-time renderer Eevee, while the SLS launch scene and the ground station scene were done with the Cycles renderer. The ground station scene is particularly interesting since its large scale required me to develop techniques for managing large scenes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Frigate Project</title>
+      <link>https://cjohns64.github.io/blender/frigate-project/</link>
+      <pubDate>Tue, 02 Jun 2020 08:52:03 -0700</pubDate>
+      <guid>https://cjohns64.github.io/blender/frigate-project/</guid>
+      <description>&lt;h2 id=&#34;frigate-project-summary&#34;&gt;Frigate Project Summary&lt;/h2&gt;&#xA;&lt;p&gt;I have always been fascinated by fully-rigged ships and for this project I made one in Blender. I learned about the rigging and layout of fully-rigged ships by reading Wikipedia articles. I didn&amp;rsquo;t notice the hull depth I was modeling was only to the water line of the reference ship until I was done with the rigging. I hadn&amp;rsquo;t setup the project organization correctly in order to support the large scale modifications needed to fix it. I learned a lot about how to use the non-destructive modeling workflow with this project.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fern Project</title>
+      <link>https://cjohns64.github.io/blender/fern-project/</link>
+      <pubDate>Wed, 26 Sep 2018 08:52:32 -0700</pubDate>
+      <guid>https://cjohns64.github.io/blender/fern-project/</guid>
+      <description>&lt;h2 id=&#34;fern-project-summary&#34;&gt;Fern Project Summary&lt;/h2&gt;&#xA;&lt;p&gt;For this project I attempted to make a photo-real sword fern. I think it turned out well, but I would definitely distribute the stems better if I were to do it again.&lt;/p&gt;&#xA;&lt;figure&gt;&#xA;  &lt;img src=&#34;https://cjohns64.github.io/projects/blender/main/fern-project.jpg&#34; alt=&#34;Fern render&#34;&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Dragon Project 01</title>
+      <link>https://cjohns64.github.io/blender/dragon-project-01/</link>
+      <pubDate>Sat, 26 Jul 2014 08:52:17 -0700</pubDate>
+      <guid>https://cjohns64.github.io/blender/dragon-project-01/</guid>
+      <description>&lt;h2 id=&#34;dragon-project-01---project-summary&#34;&gt;Dragon Project 01 - Project Summary&lt;/h2&gt;&#xA;&lt;p&gt;This is the first Blender project I worked on after learning the basics of the software. I didn&amp;rsquo;t know about Blender&amp;rsquo;s sculptor or texture painter while working on this project, so I modeled the dragon by moving vertexes around by hand and I textured it by UV unwrapping it and trying to paint in the bounds of the unwrap. I had previously learned 3D modeling using Google Sketch Up, so I thought the only way to model was drawing vertexes, edges, and faces. This probably slowed down my development in the short term, but I have found my familiarity with this method is very helpful for retopology.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

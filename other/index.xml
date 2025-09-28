@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Others on Cory Johns - Projects</title>
+    <link>https://cjohns64.github.io/other/</link>
+    <description>Recent content in Others on Cory Johns - Projects</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Nov 2024 09:11:20 -0700</lastBuildDate>
+    <atom:link href="https://cjohns64.github.io/other/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Science Final Project</title>
+      <link>https://cjohns64.github.io/other/data-science-final-project/</link>
+      <pubDate>Tue, 26 Nov 2024 09:11:20 -0700</pubDate>
+      <guid>https://cjohns64.github.io/other/data-science-final-project/</guid>
+      <description>&lt;p&gt;For the final project for CS 670 Data Science my teammate and I decided to analyze the distributions and characteristics of exoplanets in the NASA Exoplanet Archive dataset. I worked mostly on sections 2.4-2.8. My contributions primarily concerned the 3D plotting of the exoplanets. The 3D coordinates of the exoplanet observations were not part of the original dataset, so I used the Sesame Name Resolver to lookup the exoplanets coordinates from the name of their host star. I was then able to make a user-interactive 3D plot of the data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>World Class Equine Applications</title>
+      <link>https://cjohns64.github.io/other/wce-applications/</link>
+      <pubDate>Wed, 30 Aug 2023 21:23:52 -0700</pubDate>
+      <guid>https://cjohns64.github.io/other/wce-applications/</guid>
+      <description>&lt;p&gt;I developed a series of GUI applications to automate sections of the business workflow for World Class Equine. These applications integrate with the existing business Box Drive to save and retrieve data directly from PDFs already in use. The applications were written in Python using the PyQt framework and use the PyPDF2, pyebroidery, re, reportlab, typing, pathlib, svglib, json, and threading libraries.&lt;/p&gt;&#xA;&lt;p&gt;The design goals of this project were entirely focused on functionality. While the applications are graphical, I invested no time into making them visually interesting. I wrote the programs to automatically complete any task they had the data for and only ask for user input for data that could not be retrieved. I developed the applications on my Linux system, then built the executables in a Windows virtual machine using pyinstaller.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>World Class Equine Website</title>
+      <link>https://cjohns64.github.io/other/wce-website/</link>
+      <pubDate>Wed, 21 Apr 2021 21:18:03 -0700</pubDate>
+      <guid>https://cjohns64.github.io/other/wce-website/</guid>
+      <description>&lt;h2 id=&#34;world-class-equine-website&#34;&gt;World Class Equine Website&lt;/h2&gt;&#xA;&lt;p&gt;I redesigned and updated worldclassequine.com using the Hugo static site generator with the goal of minimizing the file size of the site and maximizing functionality and features with the added constraint of using zero JavaScript in the site. I decided to avoid JavaScript since it is a client side language and a site made without it contains inherently less security vulnerabilities and will typically run faster. I also believe that web development has shifted to overuse JavaScript and many sites use it unnecessarily.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NCUR Poster</title>
+      <link>https://cjohns64.github.io/other/ncur-poster/</link>
+      <pubDate>Sun, 26 Apr 2020 09:10:54 -0700</pubDate>
+      <guid>https://cjohns64.github.io/other/ncur-poster/</guid>
+      <description>&lt;p&gt;I was invited to present a poster at NCUR (National Council on Undergraduate Research) 2020, but the event was canceled due to COVID. My research poster discusses the possibility of using tetrapod nano crystals as a strain-tunable single photon source and the process I went through to try and measure that using a Hanbury Brown &amp;amp; Twiss Interferometer. I made the graphics myself using a combination of Blender and Inkscape.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cory Johns - Projects</title>
+    <link>https://cjohns64.github.io/</link>
+    <description>Recent content on Cory Johns - Projects</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Sep 2025 16:56:31 -0700</lastBuildDate>
+    <atom:link href="https://cjohns64.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>One-Armed Bandit!</title>
+      <link>https://cjohns64.github.io/games/one-armed-bandit/</link>
+      <pubDate>Tue, 23 Sep 2025 16:56:31 -0700</pubDate>
+      <guid>https://cjohns64.github.io/games/one-armed-bandit/</guid>
+      <description>&lt;h2 id=&#34;one-armed-bandit-project-summery&#34;&gt;One-Armed Bandit! Project Summery&lt;/h2&gt;&#xA;&lt;p&gt;For this project, our three-member team decided to make the game in 2D. In the prior two game jams we made 3D games and we struggled to get a working prototype done before the deadline. This turned out to be a great decision since a 2D game can be made about 100 times faster then a 3D game. We also had a great starting idea that ended up being relatively easy to implement. I made most of the art for the game (except the houses, fences, and food sprites). The art was made by modeling a simple 3D mesh in Blender and rendering it into a sprite sheet using the Sequenced Bake plugin. This turned out to be another great decision since it allowed for the detail of a 3D game combined with the ease of developing a 2D game.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lowpoly Skeleton</title>
+      <link>https://cjohns64.github.io/blender/lowpoly-skeleton/</link>
+      <pubDate>Sun, 03 Aug 2025 08:51:27 -0700</pubDate>
+      <guid>https://cjohns64.github.io/blender/lowpoly-skeleton/</guid>
+      <description>&lt;h2 id=&#34;lowpoly-skeleton-project-summary&#34;&gt;Lowpoly Skeleton Project Summary&lt;/h2&gt;&#xA;&lt;p&gt;For this project I sculpted a full human skeleton with the goal of getting &amp;ldquo;close enough&amp;rdquo; to the reference that it looks accurate. I definitely got some of the anatomy wrong, but the final sculpt looks convincing enough. The sculpt ended up with about 6 million triangles which made it unusable for most applications. I then went about retopologizing the skeleton and optimizing the mesh and I got the triangle count down to 14,356.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PANOPTICON</title>
+      <link>https://cjohns64.github.io/games/panopticon/</link>
+      <pubDate>Wed, 30 Jul 2025 16:56:14 -0700</pubDate>
+      <guid>https://cjohns64.github.io/games/panopticon/</guid>
+      <description>&lt;h2 id=&#34;panopticon-project-summery&#34;&gt;PANOPTICON Project Summery&lt;/h2&gt;&#xA;&lt;p&gt;This game is structurally quite complex and was effectively a masterclass in Godot&amp;rsquo;s raycast system. Since the pillars are all contained in the same mesh and there are over 96 different ones on each level, the traditional methods of referencing the objects couldn&amp;rsquo;t work for this project. We ended up developing a system where the normal direction of the top surface of each pillar section would be used as a key to uniquely identify that pillar. This was combined with aggressive use of Godot&amp;rsquo;s collision layers which allowed us to use raycasts from the origin to select the pillars.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mall Crawlers</title>
+      <link>https://cjohns64.github.io/games/mall-crawlers/</link>
+      <pubDate>Wed, 09 Jul 2025 16:56:00 -0700</pubDate>
+      <guid>https://cjohns64.github.io/games/mall-crawlers/</guid>
+      <description>&lt;h2 id=&#34;mall-crawlers-project-summery&#34;&gt;Mall Crawlers Project Summery&lt;/h2&gt;&#xA;&lt;p&gt;This game was made for the Godot Wild Jam #83. This was the first game jam I participated in. Our team of three people severely underestimated the time required to implement the vision we had for this project, so it ended up as more of a tech demo then a game. I spent most of my time working on making the assets, the level design, and the animation blend trees. I also did the light baking, this had a huge effect on the atmosphere of the game, but is also responsible for most of it&amp;rsquo;s file size.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hex Chess</title>
+      <link>https://cjohns64.github.io/games/hex-chess/</link>
+      <pubDate>Tue, 29 Apr 2025 16:55:48 -0700</pubDate>
+      <guid>https://cjohns64.github.io/games/hex-chess/</guid>
+      <description>&lt;h2 id=&#34;hex-chess-project-summary&#34;&gt;Hex Chess Project Summary&lt;/h2&gt;&#xA;&lt;p&gt;I made this game during the 2025 Spring term for CS 507 final project. I wanted to make a chess game, since I had previously attempted to make one in Java in 2015 when I just started to learn programming. I quickly learned the realities of a large scale programming project with this attempt and the project was eventually abandoned. I wanted to re-visit the idea utilizing the lessons I had learned as well as adding a twist, the board would be hexagonal.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Interstellar Delivery Service</title>
+      <link>https://cjohns64.github.io/games/interstellar-delivery-service/</link>
+      <pubDate>Sun, 20 Apr 2025 16:55:38 -0700</pubDate>
+      <guid>https://cjohns64.github.io/games/interstellar-delivery-service/</guid>
+      <description>&lt;h2 id=&#34;interstellar-delivery-service-project-summary&#34;&gt;Interstellar Delivery Service Project Summary&lt;/h2&gt;&#xA;&lt;p&gt;This game was made for the final project for CS 510 Game Programming. It was made in the Unity Game Engine in C#.&lt;/p&gt;&#xA;&lt;p&gt;The game was develop in four stages throughout the term: prof-of-concept, alpha, beta, and final.&lt;/p&gt;&#xA;&lt;p&gt;During the proof-of-concept stage I worked on the ship asset, the inventory system, and the inventory/trading menus.&lt;/p&gt;&#xA;&lt;p&gt;In the Alpha stage I almost completely refactored the inventory system, added an upgrade system, and added assets for the planets, asteroids, and stations in zone 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Data Science Final Project</title>
+      <link>https://cjohns64.github.io/other/data-science-final-project/</link>
+      <pubDate>Tue, 26 Nov 2024 09:11:20 -0700</pubDate>
+      <guid>https://cjohns64.github.io/other/data-science-final-project/</guid>
+      <description>&lt;p&gt;For the final project for CS 670 Data Science my teammate and I decided to analyze the distributions and characteristics of exoplanets in the NASA Exoplanet Archive dataset. I worked mostly on sections 2.4-2.8. My contributions primarily concerned the 3D plotting of the exoplanets. The 3D coordinates of the exoplanet observations were not part of the original dataset, so I used the Sesame Name Resolver to lookup the exoplanets coordinates from the name of their host star. I was then able to make a user-interactive 3D plot of the data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>World Class Equine Applications</title>
+      <link>https://cjohns64.github.io/other/wce-applications/</link>
+      <pubDate>Wed, 30 Aug 2023 21:23:52 -0700</pubDate>
+      <guid>https://cjohns64.github.io/other/wce-applications/</guid>
+      <description>&lt;p&gt;I developed a series of GUI applications to automate sections of the business workflow for World Class Equine. These applications integrate with the existing business Box Drive to save and retrieve data directly from PDFs already in use. The applications were written in Python using the PyQt framework and use the PyPDF2, pyebroidery, re, reportlab, typing, pathlib, svglib, json, and threading libraries.&lt;/p&gt;&#xA;&lt;p&gt;The design goals of this project were entirely focused on functionality. While the applications are graphical, I invested no time into making them visually interesting. I wrote the programs to automatically complete any task they had the data for and only ask for user input for data that could not be retrieved. I developed the applications on my Linux system, then built the executables in a Windows virtual machine using pyinstaller.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tree Asset</title>
+      <link>https://cjohns64.github.io/blender/tree-asset/</link>
+      <pubDate>Thu, 05 May 2022 08:53:02 -0700</pubDate>
+      <guid>https://cjohns64.github.io/blender/tree-asset/</guid>
+      <description>&lt;h2 id=&#34;tree-asset-project-summary&#34;&gt;Tree Asset Project Summary&lt;/h2&gt;&#xA;&lt;p&gt;For this project I wanted to make a convincing CG tree that I could use in other projects. I had a lot of problems managing the complexity of the tree, since it is too computationally expensive and too time consuming to model each leaf. I ended up modeling a single branch, and then instancing that branch several times to form the tree. The instances were placed by hand.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>World Class Equine Website</title>
+      <link>https://cjohns64.github.io/other/wce-website/</link>
+      <pubDate>Wed, 21 Apr 2021 21:18:03 -0700</pubDate>
+      <guid>https://cjohns64.github.io/other/wce-website/</guid>
+      <description>&lt;h2 id=&#34;world-class-equine-website&#34;&gt;World Class Equine Website&lt;/h2&gt;&#xA;&lt;p&gt;I redesigned and updated worldclassequine.com using the Hugo static site generator with the goal of minimizing the file size of the site and maximizing functionality and features with the added constraint of using zero JavaScript in the site. I decided to avoid JavaScript since it is a client side language and a site made without it contains inherently less security vulnerabilities and will typically run faster. I also believe that web development has shifted to overuse JavaScript and many sites use it unnecessarily.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wheels of the Primal Gates</title>
+      <link>https://cjohns64.github.io/blender/wheels-of-the-primal-gates/</link>
+      <pubDate>Fri, 12 Mar 2021 22:11:56 -0700</pubDate>
+      <guid>https://cjohns64.github.io/blender/wheels-of-the-primal-gates/</guid>
+      <description>&lt;h2 id=&#34;wheels-of-the-primal-gates-project-summary&#34;&gt;Wheels of the Primal Gates Project Summary&lt;/h2&gt;&#xA;&lt;p&gt;In this project, I made my interpretation of a location in one of my favorite games. In the game, Conquest of Elysium 4 by Illwinter Game Design, it is described that the primal gates (the portals that connect the elemental planes) are guarded by the wheels of Storm and Stone and the wheels of Frost and Flames. I had the most difficulty getting the wheel of Storm and Stone to stand out against the background, as well as how to depict elemental frost in a way that was instantly recognizable. One of the biggest successes of this project was that I figured out how to depict fire and clouds without resorting to simulations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bone Dragon</title>
+      <link>https://cjohns64.github.io/blender/bone-dragon/</link>
+      <pubDate>Mon, 01 Feb 2021 08:52:03 -0700</pubDate>
+      <guid>https://cjohns64.github.io/blender/bone-dragon/</guid>
+      <description>&lt;h2 id=&#34;bone-dragon-project-summary&#34;&gt;Bone Dragon Project Summary&lt;/h2&gt;&#xA;&lt;p&gt;This was my second attempt to make a dragon. The reasoning I had was if I sculpted it from the ground up (bones, then muscles, then scales) it would achieve a more realistic result. I didn&amp;rsquo;t anticipate that the final form would not match what I was going for. The project was a big success anyway, since I learned a lot about anatomy, sculpting, and retopology.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Solaren Video Remake</title>
+      <link>https://cjohns64.github.io/blender/solaren-video-remake/</link>
+      <pubDate>Tue, 15 Dec 2020 08:52:53 -0700</pubDate>
+      <guid>https://cjohns64.github.io/blender/solaren-video-remake/</guid>
+      <description>&lt;h2 id=&#34;solaren-video-remake-project-summery&#34;&gt;Solaren Video Remake Project Summery&lt;/h2&gt;&#xA;&lt;p&gt;For this project I made a completely new set of 3D animations for the Solaren corporation. The animation was based off of an earlier animation for the structure and most of the narration script. The new animation, however, does not contain any assets from the original animation. The animation contains 7 distinct scenes, with 3 distinct environments. All of the space scenes were done with Blender&amp;rsquo;s real-time renderer Eevee, while the SLS launch scene and the ground station scene were done with the Cycles renderer. The ground station scene is particularly interesting since its large scale required me to develop techniques for managing large scenes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Frigate Project</title>
+      <link>https://cjohns64.github.io/blender/frigate-project/</link>
+      <pubDate>Tue, 02 Jun 2020 08:52:03 -0700</pubDate>
+      <guid>https://cjohns64.github.io/blender/frigate-project/</guid>
+      <description>&lt;h2 id=&#34;frigate-project-summary&#34;&gt;Frigate Project Summary&lt;/h2&gt;&#xA;&lt;p&gt;I have always been fascinated by fully-rigged ships and for this project I made one in Blender. I learned about the rigging and layout of fully-rigged ships by reading Wikipedia articles. I didn&amp;rsquo;t notice the hull depth I was modeling was only to the water line of the reference ship until I was done with the rigging. I hadn&amp;rsquo;t setup the project organization correctly in order to support the large scale modifications needed to fix it. I learned a lot about how to use the non-destructive modeling workflow with this project.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NCUR Poster</title>
+      <link>https://cjohns64.github.io/other/ncur-poster/</link>
+      <pubDate>Sun, 26 Apr 2020 09:10:54 -0700</pubDate>
+      <guid>https://cjohns64.github.io/other/ncur-poster/</guid>
+      <description>&lt;p&gt;I was invited to present a poster at NCUR (National Council on Undergraduate Research) 2020, but the event was canceled due to COVID. My research poster discusses the possibility of using tetrapod nano crystals as a strain-tunable single photon source and the process I went through to try and measure that using a Hanbury Brown &amp;amp; Twiss Interferometer. I made the graphics myself using a combination of Blender and Inkscape.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fern Project</title>
+      <link>https://cjohns64.github.io/blender/fern-project/</link>
+      <pubDate>Wed, 26 Sep 2018 08:52:32 -0700</pubDate>
+      <guid>https://cjohns64.github.io/blender/fern-project/</guid>
+      <description>&lt;h2 id=&#34;fern-project-summary&#34;&gt;Fern Project Summary&lt;/h2&gt;&#xA;&lt;p&gt;For this project I attempted to make a photo-real sword fern. I think it turned out well, but I would definitely distribute the stems better if I were to do it again.&lt;/p&gt;&#xA;&lt;figure&gt;&#xA;  &lt;img src=&#34;https://cjohns64.github.io/projects/blender/main/fern-project.jpg&#34; alt=&#34;Fern render&#34;&gt;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Dragon Project 01</title>
+      <link>https://cjohns64.github.io/blender/dragon-project-01/</link>
+      <pubDate>Sat, 26 Jul 2014 08:52:17 -0700</pubDate>
+      <guid>https://cjohns64.github.io/blender/dragon-project-01/</guid>
+      <description>&lt;h2 id=&#34;dragon-project-01---project-summary&#34;&gt;Dragon Project 01 - Project Summary&lt;/h2&gt;&#xA;&lt;p&gt;This is the first Blender project I worked on after learning the basics of the software. I didn&amp;rsquo;t know about Blender&amp;rsquo;s sculptor or texture painter while working on this project, so I modeled the dragon by moving vertexes around by hand and I textured it by UV unwrapping it and trying to paint in the bounds of the unwrap. I had previously learned 3D modeling using Google Sketch Up, so I thought the only way to model was drawing vertexes, edges, and faces. This probably slowed down my development in the short term, but I have found my familiarity with this method is very helpful for retopology.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
