@@ -6,8 +6,15 @@
     <description>Recent content on Cory Johns - Projects</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Sep 2025 16:56:31 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 06 Oct 2025 10:05:01 -0800</lastBuildDate>
     <atom:link href="https://cjohns64.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CS 541 Project</title>
+      <link>https://cjohns64.github.io/other/cs541-project/</link>
+      <pubDate>Mon, 06 Oct 2025 10:05:01 -0800</pubDate>
+      <guid>https://cjohns64.github.io/other/cs541-project/</guid>
+      <description>&lt;p&gt;For the main project for CS 541: Intro to Computer Graphics I implemented a triangle rasterization program from scratch. The instructor provided the data and I wrote and debugged the program. The project was implemented in several stages:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;1A: Built a simple C++ program for writing a test image to the PNM format&lt;/li&gt;&#xA;&lt;li&gt;1B: Expanded part 1A to implement the scanline algorithm for a set of 100 &amp;ldquo;going up&amp;rdquo; triangles with individual colors.&lt;/li&gt;&#xA;&lt;li&gt;1C: Extended code to work with arbitrary triangles, and tested by rasterizing a set of 2.5M triangles to form an image.&lt;/li&gt;&#xA;&lt;li&gt;1D: Added Z-depth buffering, and vertex color interpolation.&lt;/li&gt;&#xA;&lt;li&gt;1E: Added World space to device space transformations, and tested by rendering a dataset from several angles.&lt;/li&gt;&#xA;&lt;li&gt;1F: Modified the project to implement the Phong lighting model with Gouraud shading.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>One-Armed Bandit!</title>
       <link>https://cjohns64.github.io/games/one-armed-bandit/</link>
