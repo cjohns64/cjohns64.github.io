@@ -6,8 +6,15 @@
     <description>Recent content in Blender on Cory Johns - Projects</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Aug 2025 08:51:27 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 08 Dec 2025 10:23:51 -0800</lastBuildDate>
     <atom:link href="https://cjohns64.github.io/tags/blender/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Xebec Project</title>
+      <link>https://cjohns64.github.io/blender/xebec-project/</link>
+      <pubDate>Mon, 08 Dec 2025 10:23:51 -0800</pubDate>
+      <guid>https://cjohns64.github.io/blender/xebec-project/</guid>
+      <description>&lt;h2 id=&#34;xebec-project-summary&#34;&gt;Xebec Project Summary&lt;/h2&gt;&#xA;&lt;p&gt;For this project I wanted to revisit the idea of modeling a fully-rigged ship in Blender. The last time I did this (Frigate Project) my modeling experience wasn&amp;rsquo;t up to the task and I ended up getting stuck with some mistakes I made early on in the project. This time around I wanted to do a better job of sticking to the non-destructive and generative modeling workflows, as well as exploring a different ship type. I was able to model the entire ship easily using only basic meshes, geometry nodes, the modifier stack, and instancing. These techniques allowed me to make large changes to fundamental components of the ship late in development, and adjust models with ease.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Lowpoly Skeleton</title>
       <link>https://cjohns64.github.io/blender/lowpoly-skeleton/</link>
