@@ -16,6 +16,13 @@
       <description>&lt;h2 id=&#34;xebec-project-summary&#34;&gt;Xebec Project Summary&lt;/h2&gt;&#xA;&lt;p&gt;For this project I wanted to revisit the idea of modeling a fully-rigged ship in Blender. The last time I did this (Frigate Project) my modeling experience wasn&amp;rsquo;t up to the task and I ended up getting stuck with some mistakes I made early on in the project. This time around I wanted to do a better job of sticking to the non-destructive and generative modeling workflows, as well as exploring a different ship type. I was able to model the entire ship easily using only basic meshes, geometry nodes, the modifier stack, and instancing. These techniques allowed me to make large changes to fundamental components of the ship late in development, and adjust models with ease.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Space Survivor</title>
+      <link>https://cjohns64.github.io/games/space-survivor/</link>
+      <pubDate>Sun, 16 Nov 2025 12:53:54 -0800</pubDate>
+      <guid>https://cjohns64.github.io/games/space-survivor/</guid>
+      <description>&lt;h2 id=&#34;space-survivor&#34;&gt;Space Survivor&lt;/h2&gt;&#xA;&lt;p&gt;This game was made for the University of Oregon Quackhacks 2025 event. I was part of a team of 4 people. We all worked on the programming, but I was also responsible for the 3D models and the skybox. We completed the project from start to finish in just 24 hours, since that was the goal of the hackathon. The game itself is a simple clone of Vampire Survivors, with the added twist of being in full 3D with art direction inspired by Galaga.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>CS 541 Project</title>
       <link>https://cjohns64.github.io/other/cs541-project/</link>
       <pubDate>Mon, 06 Oct 2025 10:05:01 -0800</pubDate>

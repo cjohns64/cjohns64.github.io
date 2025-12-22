@@ -6,8 +6,15 @@
     <description>Recent content in Games on Cory Johns - Projects</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Sep 2025 16:56:31 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 16 Nov 2025 12:53:54 -0800</lastBuildDate>
     <atom:link href="https://cjohns64.github.io/games/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Space Survivor</title>
+      <link>https://cjohns64.github.io/games/space-survivor/</link>
+      <pubDate>Sun, 16 Nov 2025 12:53:54 -0800</pubDate>
+      <guid>https://cjohns64.github.io/games/space-survivor/</guid>
+      <description>&lt;h2 id=&#34;space-survivor&#34;&gt;Space Survivor&lt;/h2&gt;&#xA;&lt;p&gt;This game was made for the University of Oregon Quackhacks 2025 event. I was part of a team of 4 people. We all worked on the programming, but I was also responsible for the 3D models and the skybox. We completed the project from start to finish in just 24 hours, since that was the goal of the hackathon. The game itself is a simple clone of Vampire Survivors, with the added twist of being in full 3D with art direction inspired by Galaga.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>One-Armed Bandit!</title>
       <link>https://cjohns64.github.io/games/one-armed-bandit/</link>
