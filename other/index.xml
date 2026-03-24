@@ -6,8 +6,15 @@
     <description>Recent content in Others on Cory Johns - Projects</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Oct 2025 10:05:01 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 13:48:32 -0700</lastBuildDate>
     <atom:link href="https://cjohns64.github.io/other/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPU Boids</title>
+      <link>https://cjohns64.github.io/other/gpu-boids/</link>
+      <pubDate>Mon, 16 Mar 2026 13:48:32 -0700</pubDate>
+      <guid>https://cjohns64.github.io/other/gpu-boids/</guid>
+      <description>&lt;h2 id=&#34;project-summary&#34;&gt;Project Summary&lt;/h2&gt;&#xA;&lt;p&gt;In this project I implemented the Boids algorithm in a GLSL compute shader in order to simulate thousands of fish in real-time. The project was inspired by the original work done by the developers of ABZU, but my project was implemented for the Godot game engine and only features the basic foundation of what they achieved. In addition to the Boids algorithm, I also implemented an animation system using a vertex shader with Godot&amp;rsquo;s MultimeshInstance3D node. The performance of the project was compared against a standard CPU implementation.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>CS 541 Project</title>
       <link>https://cjohns64.github.io/other/cs541-project/</link>

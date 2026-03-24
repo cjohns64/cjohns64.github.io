@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<title>Xebec Project | Cory Johns - Projects</title>
+<title>GPU Boids | Cory Johns - Projects</title>
 
       <link rel="stylesheet" href="/css/style.min.28d72938615241ca609076f8da833d6d0408d4af8e1964683289334eed446f57.css" integrity="sha256-KNcpOGFSQcpgkHb42oM9bQQI1K&#43;OGWRoMokzTu1Eb1c=" crossorigin="anonymous">
 
@@ -54,20 +54,21 @@
   <main>
       <div class="projects">
         
-  <h1>Xebec Project</h1>
+  <h1>GPU Boids</h1>
 
   
   
-  <time datetime="2025-12-08T10:23:51-08:00">December 8, 2025</time>
+  <time datetime="2026-03-16T13:48:32-07:00">March 16, 2026</time>
 
   <div class="content">
-  <h2 id="xebec-project-summary">Xebec Project Summary</h2>
-<p>For this project I wanted to revisit the idea of modeling a fully-rigged ship in Blender. The last time I did this (Frigate Project) my modeling experience wasn&rsquo;t up to the task and I ended up getting stuck with some mistakes I made early on in the project. This time around I wanted to do a better job of sticking to the non-destructive and generative modeling workflows, as well as exploring a different ship type. I was able to model the entire ship easily using only basic meshes, geometry nodes, the modifier stack, and instancing. These techniques allowed me to make large changes to fundamental components of the ship late in development, and adjust models with ease.</p>
-<p>I mostly relied on the modifier stack for this project. I mostly used the Mirror, Solidify, Subdivision, and Boolean modifiers. Geometry nodes were also extremely helpful for two situations that I could not solve with the modifier stack. Those being adding an array modifier to an instanced scene and deforming an instanced scene along a curve. Blender 5.0, which release while I was working on this project, converted the legacy array modifier into a geometry node group. I was immediately able to use this to enable me to create an array on an instanced scene. I used this to place the cannons while also allowing the base cannon to be a collection. For the running rigging, I encountered a situation where I needed a complex rope and pulley object to follow a curve. I didn&rsquo;t want to join the rope and pulley object in one data block, so I followed a tutorial on re-creating the curve modifier in geometry nodes. This allowed me to deform an instanced collection along a curve.</p>
-<p>This project was presented as my final project for CS 541 - Intro to Computer Graphics, where it won best art project. I limited my time on this project to 30 hours since that was the work target for the class.</p>
+  <h2 id="project-summary">Project Summary</h2>
+<p>In this project I implemented the Boids algorithm in a GLSL compute shader in order to simulate thousands of fish in real-time. The project was inspired by the original work done by the developers of ABZU, but my project was implemented for the Godot game engine and only features the basic foundation of what they achieved. In addition to the Boids algorithm, I also implemented an animation system using a vertex shader with Godot&rsquo;s MultimeshInstance3D node. The performance of the project was compared against a standard CPU implementation.</p>
+<p>I modeled the fish in Blender and the final model was fully textured and contained ~4.5k vertexes. The Boids simulation was able to run at over 60fps on my laptop with over 4000 fish. The CPU implementation however, was unable to make 1fps at those settings.</p>
 <figure>
-  <img src="https://cjohns64.github.io/projects/blender/main/xebec-project.jpg" alt="Xebec render">
+  <img src="https://cjohns64.github.io/projects/other/main/gpu-boids.jpg" alt="Simulation with 4048 fish">
 </figure>
+
+<a class="calltoaction btn" target="_blank" href="https://github.com/cjohns64/gpu-boids-godot">Project Files on GitHub</a>
 
 
   </div>
@@ -76,7 +77,7 @@
   <div class="taglist">
     <h3>Tags:</h3>
     <ul>
-        <li><a href="/tags/blender/">Blender</a></li>
+        <li><a href="/tags/other/">Other</a></li>
     </ul>
   </div>
 
