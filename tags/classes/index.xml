@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Classes on Cory Johns - Projects</title>
-    <link>https://cjohns64.github.io/tags/classes/</link>
-    <description>Recent content in Classes on Cory Johns - Projects</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 06 Oct 2025 10:05:01 -0800</lastBuildDate>
-    <atom:link href="https://cjohns64.github.io/tags/classes/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>CS 541 Project</title>
-      <link>https://cjohns64.github.io/other/cs541-project/</link>
-      <pubDate>Mon, 06 Oct 2025 10:05:01 -0800</pubDate>
-      <guid>https://cjohns64.github.io/other/cs541-project/</guid>
-      <description>&lt;p&gt;For the main project for CS 541: Intro to Computer Graphics I implemented a triangle rasterization program from scratch. The instructor provided the data and I wrote and debugged the program. The project was implemented in several stages:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;1A: Built a simple C++ program for writing a test image to the PNM format&lt;/li&gt;&#xA;&lt;li&gt;1B: Expanded part 1A to implement the scanline algorithm for a set of 100 &amp;ldquo;going up&amp;rdquo; triangles with individual colors.&lt;/li&gt;&#xA;&lt;li&gt;1C: Extended code to work with arbitrary triangles, and tested by rasterizing a set of 2.5M triangles to form an image.&lt;/li&gt;&#xA;&lt;li&gt;1D: Added Z-depth buffering, and vertex color interpolation.&lt;/li&gt;&#xA;&lt;li&gt;1E: Added World space to device space transformations, and tested by rendering a dataset from several angles.&lt;/li&gt;&#xA;&lt;li&gt;1F: Modified the project to implement the Phong lighting model with Gouraud shading.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Data Science Final Project</title>
-      <link>https://cjohns64.github.io/other/data-science-final-project/</link>
-      <pubDate>Tue, 26 Nov 2024 09:11:20 -0700</pubDate>
-      <guid>https://cjohns64.github.io/other/data-science-final-project/</guid>
-      <description>&lt;p&gt;For the final project for CS 670 Data Science my teammate and I decided to analyze the distributions and characteristics of exoplanets in the NASA Exoplanet Archive dataset. I worked mostly on sections 2.4-2.8. My contributions primarily concerned the 3D plotting of the exoplanets. The 3D coordinates of the exoplanet observations were not part of the original dataset, so I used the Sesame Name Resolver to lookup the exoplanets coordinates from the name of their host star. I was then able to make a user-interactive 3D plot of the data.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>NCUR Poster</title>
-      <link>https://cjohns64.github.io/other/ncur-poster/</link>
-      <pubDate>Sun, 26 Apr 2020 09:10:54 -0700</pubDate>
-      <guid>https://cjohns64.github.io/other/ncur-poster/</guid>
-      <description>&lt;p&gt;I was invited to present a poster at NCUR (National Council on Undergraduate Research) 2020, but the event was canceled due to COVID. My research poster discusses the possibility of using tetrapod nano crystals as a strain-tunable single photon source and the process I went through to try and measure that using a Hanbury Brown &amp;amp; Twiss Interferometer. I made the graphics myself using a combination of Blender and Inkscape.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Classes on Cory Johns - Projects</title>
+		<link>https://cjohns64.github.io/tags/classes/</link>
+		<description>Recent content in Classes on Cory Johns - Projects</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 06 Oct 2025 10:05:01 -0800</lastBuildDate>
+		
+			<atom:link href="https://cjohns64.github.io/tags/classes/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>CS 541 Project</title>
+				<link>https://cjohns64.github.io/other/cs541-project/</link>
+				<pubDate>Mon, 06 Oct 2025 10:05:01 -0800</pubDate>
+				<guid>https://cjohns64.github.io/other/cs541-project/</guid>
+				<description>&lt;p&gt;For the main project for CS 541: Intro to Computer Graphics I implemented a triangle rasterization program from scratch. The instructor provided the data and I wrote and debugged the program. The project was implemented in several stages:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;1A: Built a simple C++ program for writing a test image to the PNM format&lt;/li&gt;&#xA;&lt;li&gt;1B: Expanded part 1A to implement the scanline algorithm for a set of 100 &amp;ldquo;going up&amp;rdquo; triangles with individual colors.&lt;/li&gt;&#xA;&lt;li&gt;1C: Extended code to work with arbitrary triangles, and tested by rasterizing a set of 2.5M triangles to form an image.&lt;/li&gt;&#xA;&lt;li&gt;1D: Added Z-depth buffering, and vertex color interpolation.&lt;/li&gt;&#xA;&lt;li&gt;1E: Added World space to device space transformations, and tested by rendering a dataset from several angles.&lt;/li&gt;&#xA;&lt;li&gt;1F: Modified the project to implement the Phong lighting model with Gouraud shading.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>Data Science Final Project</title>
+				<link>https://cjohns64.github.io/other/data-science-final-project/</link>
+				<pubDate>Tue, 26 Nov 2024 09:11:20 -0700</pubDate>
+				<guid>https://cjohns64.github.io/other/data-science-final-project/</guid>
+				<description>&lt;p&gt;For the final project for CS 670 Data Science my teammate and I decided to analyze the distributions and characteristics of exoplanets in the NASA Exoplanet Archive dataset. I worked mostly on sections 2.4-2.8. My contributions primarily concerned the 3D plotting of the exoplanets. The 3D coordinates of the exoplanet observations were not part of the original dataset, so I used the Sesame Name Resolver to lookup the exoplanets coordinates from the name of their host star. I was then able to make a user-interactive 3D plot of the data.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>NCUR Poster</title>
+				<link>https://cjohns64.github.io/other/ncur-poster/</link>
+				<pubDate>Sun, 26 Apr 2020 09:10:54 -0700</pubDate>
+				<guid>https://cjohns64.github.io/other/ncur-poster/</guid>
+				<description>&lt;p&gt;I was invited to present a poster at NCUR (National Council on Undergraduate Research) 2020, but the event was canceled due to COVID. My research poster discusses the possibility of using tetrapod nano crystals as a strain-tunable single photon source and the process I went through to try and measure that using a Hanbury Brown &amp;amp; Twiss Interferometer. I made the graphics myself using a combination of Blender and Inkscape.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
