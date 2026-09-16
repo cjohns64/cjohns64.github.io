@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<title>Other | Cory Johns - Projects</title>
+<title>Tile Inventory | Cory Johns - Projects</title>
 
       <link rel="stylesheet" href="/css/style.min.28d72938615241ca609076f8da833d6d0408d4af8e1964683289334eed446f57.css" integrity="sha256-KNcpOGFSQcpgkHb42oM9bQQI1K&#43;OGWRoMokzTu1Eb1c=" crossorigin="anonymous">
 
@@ -37,7 +37,7 @@
       <a href="/tags/blender/">Blender</a>
     </li>
     <li>
-      <a aria-current="page" class="active" href="/tags/other/">Other</a>
+      <a href="/tags/other/">Other</a>
     </li>
     </ul>
   </nav>
@@ -54,45 +54,30 @@
   <main>
       <div class="projects">
         
-    <header class="list-header">
-        <h1>Other</h1>
-    </header>
+  <h1>Tile Inventory</h1>
 
-    
-    <div class="list-summary">
-    <a href="https://cjohns64.github.io/other/ncur-poster/">
-       <figure class="list-thumbnail">
-               <img src="/projects/other/ncur-poster.jpg" alt="NCUR Poster" />
-       </figure>
-    <h2>NCUR Poster</h2>
-    <h3>2020</h3>
-    <p>A poster I made for NCUR 2020 on my undergrad research on photon antibunching in semiconductor nanostructures, the event was canceled due to COVID.</p>
-    </a>
-</div>
+  
+  
+  <time datetime="2026-09-15T22:13:27-07:00">September 15, 2026</time>
 
-    <div class="pagination">
-        
-		<ul class="pagination pagination-default">
-			<li class="page-item">
-				<a href="/tags/other/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
-			</li>
-		<li class="page-item">
-			<a href="/tags/other/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
-		</li>
-			<li class="page-item">
-				<a href="/tags/other/" aria-label="Page 1" class="page-link" role="button">1</a>
-			</li>
-			<li class="page-item active">
-				<a aria-current="page" aria-label="Page 2" class="page-link" role="button">2</a>
-			</li>
-		<li class="page-item disabled">
-			<a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
-		</li>
-			<li class="page-item disabled">
-				<a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
-			</li>
-		</ul>
-    </div>
+  <div class="content">
+  <p>I designed and built a tile-based inventory system for use in my game projects. I made the inventory from scratch in the Godot game engine. It is composed of a grid of cells, a typical item will occupy multiple cells at once and may have a irregular footprint as well as holes. The inventory supports item stacking (up to a limit defined by either the inventory itself or the item being stacked), item rotation, and drag and drop. It also contains a basic sort function and a snap to grid function for near misses when moving or placing an item. The items are logically tracked independently from both their cell representation and their image representation. When performing a drag and drop, the interaction events are handled by the cell grid and the item image is only used as the visual element for dragging. Whenever an item is added or moved, the inventory will validate if the action is allowed before performing it.</p>
+<figure>
+  <img src="https://cjohns64.github.io/projects/other/main/tile-inventory.jpg" alt="Example inventory with test items">
+</figure>
+
+<a class="calltoaction btn" target="_blank" href="https://github.com/cjohns64/godot-utilities-library/tree/main/TileInventory">Project Files on GitHub</a>
+
+
+  </div>
+
+  
+  <div class="taglist">
+    <h3>Tags:</h3>
+    <ul>
+        <li><a href="/tags/other/">Other</a></li>
+    </ul>
+  </div>
 
 
       </div>

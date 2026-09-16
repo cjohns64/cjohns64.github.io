@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Mon, 16 Mar 2026 13:48:32 -0700</lastBuildDate>
+			<lastBuildDate>Tue, 15 Sep 2026 22:13:27 -0700</lastBuildDate>
 		
 			<atom:link href="https://cjohns64.github.io/tags/other/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Tile Inventory</title>
+				<link>https://cjohns64.github.io/other/tile-inventory/</link>
+				<pubDate>Tue, 15 Sep 2026 22:13:27 -0700</pubDate>
+				<guid>https://cjohns64.github.io/other/tile-inventory/</guid>
+				<description>&lt;p&gt;I designed and built a tile-based inventory system for use in my game projects. I made the inventory from scratch in the Godot game engine. It is composed of a grid of cells, a typical item will occupy multiple cells at once and may have a irregular footprint as well as holes. The inventory supports item stacking (up to a limit defined by either the inventory itself or the item being stacked), item rotation, and drag and drop. It also contains a basic sort function and a snap to grid function for near misses when moving or placing an item. The items are logically tracked independently from both their cell representation and their image representation. When performing a drag and drop, the interaction events are handled by the cell grid and the item image is only used as the visual element for dragging. Whenever an item is added or moved, the inventory will validate if the action is allowed before performing it.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>GPU Boids</title>
 				<link>https://cjohns64.github.io/other/gpu-boids/</link>
