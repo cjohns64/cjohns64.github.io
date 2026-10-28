@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Game System on Cory Johns - Projects</title>
+		<link>https://cjohns64.github.io/tags/game-system/</link>
+		<description>Recent content in Game System on Cory Johns - Projects</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 15 Sep 2026 22:13:27 -0700</lastBuildDate>
+		
+			<atom:link href="https://cjohns64.github.io/tags/game-system/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Tile Inventory</title>
+				<link>https://cjohns64.github.io/misc/tile-inventory/</link>
+				<pubDate>Tue, 15 Sep 2026 22:13:27 -0700</pubDate>
+				<guid>https://cjohns64.github.io/misc/tile-inventory/</guid>
+				<description>&lt;p&gt;I designed and built a tile-based inventory system for use in my game projects. I made the inventory from scratch in the Godot game engine. It is composed of a grid of cells, a typical item will occupy multiple cells at once and may have an irregular footprint as well as holes. The inventory supports item stacking (up to a limit defined by either the inventory itself or the item being stacked), item rotation, and drag and drop. It also contains a basic sort function and a snap to grid function for near misses when moving or placing an item. The items are logically tracked independently from both their cell representation and their image representation. When performing a drag and drop, the interaction events are handled by the cell grid and the item image is only used as the visual element for dragging. Whenever an item is added or moved, the inventory will validate if the action is allowed before performing it.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>GPU Boids</title>
+				<link>https://cjohns64.github.io/misc/gpu-boids/</link>
+				<pubDate>Mon, 16 Mar 2026 13:48:32 -0700</pubDate>
+				<guid>https://cjohns64.github.io/misc/gpu-boids/</guid>
+				<description>&lt;h2 id=&#34;project-summary&#34;&gt;Project Summary&lt;/h2&gt;&#xA;&lt;p&gt;In this project I implemented the Boids algorithm in a GLSL compute shader in order to simulate thousands of fish in real-time. The project was inspired by the original work done by the developers of ABZU, but my project was implemented for the Godot game engine and only features the basic foundation of what they achieved. In addition to the Boids algorithm, I also implemented an animation system using a vertex shader with Godot&amp;rsquo;s MultimeshInstance3D node. The performance of the project was compared against a standard CPU implementation.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

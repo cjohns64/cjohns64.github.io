@@ -7,13 +7,14 @@
    viewBox="0 0 137.33429 58.056499"
    version="1.1"
    id="svg5"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="CoryJohns_Signature_Vector_01.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="signature.svg"
    inkscape:export-filename="CoryJohns_Signature_Vector_01.png"
    inkscape:export-xdpi="720"
    inkscape:export-ydpi="720"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
@@ -31,24 +32,55 @@
      fit-margin-left="5"
      fit-margin-right="5"
      fit-margin-bottom="5"
-     inkscape:zoom="2.0938813"
-     inkscape:cx="193.18192"
-     inkscape:cy="104.82925"
+     inkscape:zoom="1.4805977"
+     inkscape:cx="225.92228"
+     inkscape:cy="159.05739"
      inkscape:window-width="2560"
-     inkscape:window-height="1417"
+     inkscape:window-height="1364"
      inkscape:window-x="0"
-     inkscape:window-y="23"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:showpageshadow="0"
      inkscape:deskcolor="#505050" />
   <defs
-     id="defs2" />
+     id="defs2">
+    <linearGradient
+       id="linearGradient1"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#d3e2ff;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#4466ff;stop-opacity:0;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="radialGradient2"
+       cx="-49.479546"
+       cy="158.79761"
+       fx="-49.479546"
+       fy="158.79761"
+       r="68.701353"
+       gradientTransform="matrix(1,0,0,0.41995064,0,92.110453)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(118.01113,-129.9375)">
+    <rect
+       style="fill:url(#radialGradient2);stroke:none;stroke-width:0.696942;-inkscape-stroke:none"
+       id="rect1"
+       width="136.70576"
+       height="57.005413"
+       x="-117.83243"
+       y="130.29491" />
     <g
        id="g1430"
        transform="translate(7.8536323,-53.510031)">

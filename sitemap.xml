@@ -14,16 +14,22 @@
     <loc>https://cjohns64.github.io/tags/</loc>
     <lastmod>2026-09-15T22:36:24-07:00</lastmod>
   </url><url>
-    <loc>https://cjohns64.github.io/tags/other/</loc>
+    <loc>https://cjohns64.github.io/tags/code/</loc>
     <lastmod>2026-09-15T22:13:27-07:00</lastmod>
   </url><url>
-    <loc>https://cjohns64.github.io/other/</loc>
+    <loc>https://cjohns64.github.io/tags/game-system/</loc>
     <lastmod>2026-09-15T22:13:27-07:00</lastmod>
   </url><url>
-    <loc>https://cjohns64.github.io/other/tile-inventory/</loc>
+    <loc>https://cjohns64.github.io/tags/misc/</loc>
     <lastmod>2026-09-15T22:13:27-07:00</lastmod>
   </url><url>
-    <loc>https://cjohns64.github.io/other/gpu-boids/</loc>
+    <loc>https://cjohns64.github.io/misc/</loc>
+    <lastmod>2026-09-15T22:13:27-07:00</lastmod>
+  </url><url>
+    <loc>https://cjohns64.github.io/misc/tile-inventory/</loc>
+    <lastmod>2026-09-15T22:13:27-07:00</lastmod>
+  </url><url>
+    <loc>https://cjohns64.github.io/misc/gpu-boids/</loc>
     <lastmod>2026-03-16T13:48:32-07:00</lastmod>
   </url><url>
     <loc>https://cjohns64.github.io/tags/blender/</loc>
@@ -41,7 +47,7 @@
     <loc>https://cjohns64.github.io/tags/classes/</loc>
     <lastmod>2025-10-06T10:05:01-08:00</lastmod>
   </url><url>
-    <loc>https://cjohns64.github.io/other/cs541-project/</loc>
+    <loc>https://cjohns64.github.io/misc/cs541-project/</loc>
     <lastmod>2025-10-06T10:05:01-08:00</lastmod>
   </url><url>
     <loc>https://cjohns64.github.io/games/one-armed-bandit/</loc>
@@ -65,16 +71,16 @@
     <loc>https://cjohns64.github.io/games/interstellar-delivery-service/</loc>
     <lastmod>2025-04-20T16:55:38-07:00</lastmod>
   </url><url>
-    <loc>https://cjohns64.github.io/other/data-science-final-project/</loc>
+    <loc>https://cjohns64.github.io/misc/data-science-final-project/</loc>
     <lastmod>2024-11-26T09:11:20-07:00</lastmod>
   </url><url>
-    <loc>https://cjohns64.github.io/other/wce-applications/</loc>
+    <loc>https://cjohns64.github.io/misc/wce-applications/</loc>
     <lastmod>2023-08-30T21:23:52-07:00</lastmod>
   </url><url>
     <loc>https://cjohns64.github.io/blender/tree-asset/</loc>
     <lastmod>2022-05-05T08:53:02-07:00</lastmod>
   </url><url>
-    <loc>https://cjohns64.github.io/other/wce-website/</loc>
+    <loc>https://cjohns64.github.io/misc/wce-website/</loc>
     <lastmod>2021-04-21T21:18:03-07:00</lastmod>
   </url><url>
     <loc>https://cjohns64.github.io/blender/wheels-of-the-primal-gates/</loc>
@@ -89,7 +95,7 @@
     <loc>https://cjohns64.github.io/blender/frigate-project/</loc>
     <lastmod>2020-06-02T08:52:03-07:00</lastmod>
   </url><url>
-    <loc>https://cjohns64.github.io/other/ncur-poster/</loc>
+    <loc>https://cjohns64.github.io/misc/ncur-poster/</loc>
     <lastmod>2020-04-26T09:10:54-07:00</lastmod>
   </url><url>
     <loc>https://cjohns64.github.io/blender/fern-project/</loc>
